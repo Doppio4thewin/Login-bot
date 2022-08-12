@@ -22,7 +22,7 @@ def perra():
   driver = get_puto()
   driver.find_element(by='id', value="Ecom_User_ID").send_keys("A01275621")
   time.sleep(2)
-  driver.find_element(by='id', value="Ecom_Password").send_keys("TIblanco26*" + Keys.RETURN)
+  driver.find_element(by='id', value="Ecom_Password").send_keys("TIblanco26*")
   print(driver.current_url)
   
 print(perra())
