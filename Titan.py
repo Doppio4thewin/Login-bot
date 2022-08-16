@@ -20,7 +20,7 @@ def get_puto():
 
 def perra():
   driver = get_puto()
-  driver.find_element(by='xpath', value="/html/body/header/div[1]/div[1]/div/div[3]/a[2]/span/svg").send_keys(Keys.RETURN)
+  driver.find_element(by='xpath', value='/html/body/header/div[1]/div[1]/div/div[3]/a[2]/span/svg').click()
   time.sleep(2)
   print(driver.current_url)
   
